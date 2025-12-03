@@ -13,7 +13,7 @@ $$
 自注意力机制（Self-Attention Mechanism）是注意力机制的一种特殊形式，主要用于处理序列数据。它允许序列中的每个位置与序列中的其他位置进行交互，从而捕捉全局的依赖关系。自注意力机制通过计算输入序列中每个位置的查询（Query）、键（Key）和值（Value）之间的相关性，生成一个加权和，作为该位置的输出表示。
 output表示为：
 $$
-   SelfAttention(Q, K, V) = softmax\left(\frac{QK^T}{\sqrt{d_k}}\right)V
+   Self Attention(Q, K, V) = softmax\left(\frac{QK^T}{\sqrt{d_k}}\right)V
 $$
 
 自注意力机制在Transformer模型中发挥了关键作用，使其能够高效地处理长序列数据，并在机器翻译、文本生成等任务中取得了显著的效果。
