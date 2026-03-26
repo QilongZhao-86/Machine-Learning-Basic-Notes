@@ -10,7 +10,7 @@
 
 <!-- 校徽 & 学院 -->
 <p align="center">
-  <img src="index/图片1.png" width="400"/>
+  <img src="index/图片1.png" width="300"/>
   <br><br>
   <img src="index/image.png" width="500"/>
 </p>
