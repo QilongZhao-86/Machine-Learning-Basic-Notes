@@ -3,8 +3,14 @@
 ## 本仓库富含本人在人工智能领域学习的笔记或者读过的论文，欢迎大家一起交流学习。
 
 感谢各位朋友的支持和关注！如果你对人工智能领域有兴趣，或者想要分享你的学习笔记和论文，请随时加入我们的社区。我们相信通过共同努力，我们可以更好地理解和应用人工智能技术。
-![alt text](图片1.png)
-![alt text](image.png)
+
+<div align="center">
+
+![img1](图片1.png)
+![img2](image.png)
+
+</div>
+
 Qilong Zhao  
 Please contact me at zqilong160@gmail.com
 
