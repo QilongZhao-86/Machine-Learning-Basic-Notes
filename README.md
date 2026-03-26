@@ -12,7 +12,7 @@
 <!-- 校徽 & 学院（可点击） -->
 <p align="center">
   <a href="https://www.dlut.edu.cn/" target="_blank">
-    <img src="index/图片1.png" width="80%" style="max-width:300px;"/>
+    <img src="index/图片1.png" width="60%" style="max-width:300px;"/>
   </a>
   <br>
   <em>Dalian University of Technology</em>
