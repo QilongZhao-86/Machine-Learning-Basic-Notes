@@ -10,11 +10,10 @@
 
 <!-- 校徽 & 学院 -->
 <p align="center">
-  <img src="图片1.png" width="120"/>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="image.png" width="120"/>
+  <img src="图片1.png" width="180"/>
+  <br><br>
+  <img src="image.png" width="180"/>
 </p>
-
 <p align="center">
   <b>Qilong Zhao</b>  
   <br>
