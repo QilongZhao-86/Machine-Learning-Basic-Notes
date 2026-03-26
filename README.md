@@ -8,11 +8,21 @@
 
 ---
 
-<!-- 校徽 & 学院 -->
+
+<!-- 校徽 & 学院（可点击） -->
 <p align="center">
-  <img src="index/图片1.png" width="300"/>
+  <a href="https://www.dlut.edu.cn/" target="_blank">
+    <img src="index/图片1.png" width="80%" style="max-width:500px;"/>
+  </a>
+  <br>
+  <em>Dalian University of Technology</em>
   <br><br>
-  <img src="index/image.png" width="500"/>
+
+  <a href="https://drise.dlut.edu.cn/" target="_blank">
+    <img src="index/image.png" width="80%" style="max-width:500px;"/>
+  </a>
+  <br>
+  <em>School / Institute</em>
 </p>
 
 <p align="center">
