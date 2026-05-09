@@ -14,6 +14,8 @@ offline RL：模型在训练过程中使用预先收集的数据进行训练，�
 
 actor-critic方法：一种强化学习算法，其中actor负责生成动作，critic负责评估动作的价值。actor根据critic的反馈来调整自己的策略，以提高整体性能。常见的一种训练Embodied agent的方法。
 
+replay buffer：在强化学习中，replay buffer是一种数据结构，用于存储智能体在环境中经历的状态、动作、奖励和下一个状态等信息。智能体在训练过程中会从replay buffer中随机抽取样本进行学习，这有助于打破数据之间的相关性，提高训练的稳定性和效率。
+
 ## 相关的领域内容
 
 VLA领域中常见现在已经使用DiT-based模型来作为action chunk的视觉理解以及generation的model，但是在精细任务上面还是不理想，通常需要去fine-tune模型来适应特定的任务。也就是说泛化性不是很足。
@@ -32,4 +34,22 @@ RECAP [3] 通过基于优势函数条件的策略提取方法，使用离线 RL 
 
 第三，RLT 的 actor 并不是预测残差或者潜在噪声，而是直接以 VLA 采样得到的参考动作块作为条件，并通过正则化让输出动作靠近这个参考动作。这样，在线 RL 就变成了对一个较好的 VLA 先验行为策略进行局部精修，而不是无约束搜索，或者对扩散过程进行隐式调制。
 
+## 自回归式重建RL-Token
 
+这篇文章通过用两个transformer作为encoder和decoder来进行压缩表征-RL-Token，进行自回归式的重建。Encoder将image embedding压缩为RL-token，然后根据RL-Token以及前面相关的token进行下一个token的重建。
+
+## Related works list
+
+1. Behavioral Cloning
+2. Action Chunking
+3. Diffusion Policy / diffusion action generation
+4. Autoregressive action generation
+5. VLA / OpenVLA / π0 / RT-2 基本范式
+6. Off-policy actor-critic
+7. Replay buffer
+8. TD learning / Q function
+9. PPO 为什么是 on-policy
+10. Residual policy
+11. Human-in-the-loop RL
+12. DAgger
+13. Diffusion noise space / latent action modulation
